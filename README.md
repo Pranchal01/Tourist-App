@@ -1,6 +1,6 @@
 # Tourist-App
 
-App focus on guiding tourists visiting kota by providing them list of famous places to visit with ratings from others who have visited there.
+App focus on guiding tourist visiting kota by providing them list of famous places to visit with ratings from others who have visited there.
 
 ## Screenshot
 <img src="https://user-images.githubusercontent.com/86773937/124144295-76a84700-daa9-11eb-9e3e-f7b452d04131.jpg" height="480" width="250">
