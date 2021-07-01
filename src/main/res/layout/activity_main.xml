@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/homescreenbackground">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/attractions"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="166dp"
+        android:layout_marginStart="51dp"
+        android:layout_marginEnd="51dp"
+        app:cardElevation="3dp"
+        app:cardCornerRadius="32dp"
+        app:cardBackgroundColor="#3A4E4F">
+
+                <!-- Title-->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/top_attractions"
+                    android:fontFamily="@font/main_activity_font"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:textColor="#ef4a4a"
+                    android:textAppearance="?attr/textAppearanceHeadline6"
+                    />
+
+    </com.google.android.material.card.MaterialCardView>
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/restaurants"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="51dp"
+        android:layout_marginStart="51dp"
+        android:layout_marginEnd="51dp"
+        app:cardElevation="3dp"
+        app:cardCornerRadius="32dp"
+        app:cardBackgroundColor="#3A4E4F">
+
+        <!-- Title-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/top_restaurants"
+            android:fontFamily="@font/main_activity_font"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:textColor="#ef4a4a"
+            android:textAppearance="?attr/textAppearanceHeadline6"
+            />
+
+    </com.google.android.material.card.MaterialCardView>
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/coachings"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="51dp"
+        android:layout_marginStart="51dp"
+        android:layout_marginEnd="51dp"
+        app:cardElevation="3dp"
+        app:cardCornerRadius="32dp"
+        app:cardBackgroundColor="#3A4E4F">
+
+        <!-- Title-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/top_coachings"
+            android:fontFamily="@font/main_activity_font"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:textColor="#ef4a4a"
+            android:textAppearance="?attr/textAppearanceHeadline6"
+            />
+
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>

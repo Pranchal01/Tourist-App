@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Kota Darshan</string>
+    <string name="top_attractions">TOP ATTRACTIONS</string>
+    <string name="top_restaurants">TOP RESTAURANTS</string>
+    <string name="top_coachings">TOP COACHINGS</string>
+    <string name="secondary_text">useHistory does a great job of showcasing React Hooks by separating access to the react-router history object into a cross-cutting concern and replaces the previous cumbersome access via higher-order components or render-props that are now a thing of the past.</string>
+    <string name="title">dummy</string>
+
+</resources>
